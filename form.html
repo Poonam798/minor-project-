@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css" type="text/css">
+</head>
+
+<body>
+    <div class="req">
+        <h1>
+            Leave Request Form</h1>
+    </div>
+    <div class="main">
+
+        <form method="POST">
+            <div id="name">
+                <h2 class="name">
+                    Name </h2>
+                <input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">first name</label>
+                <input class="lastname" type="text" name="last_name"><br>
+                <label class="lastlabel">last name</label>
+            </div>
+            <h2 class="name">
+                Department </h2>
+            <input class="Department" type="text" name="Department">
+            <h2 class="name">
+                From Date:<input type="date" name="mydate">
+                <br>
+                </br>
+                <br>
+                </br>
+                <div>To Date:<input type="date" name="mydate">
+                </div>
+                <br>
+                </br>
+
+                Email
+            </h2>
+            <input class="email" type="email" name="email">
+            <h2 class="name">
+                Phone</h2>
+            <input class="Code" type="text" name="country_code">
+            <label class="country-code">Country Code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+
+
+            <h2 class="name">
+                Reason for Requested Leave: <textarea name="Mytext" cols="60" rows="10"></textarea>
+                <br>
+                </br>
+                <img src="adi.jpg">
+
+                Request Approved </hr2>
+                <label class="radio">
+                    <input class="radio-one" type="radio" checked="checked" name="rdiobtn">
+                    <span class="checkmark"></span>
+                    Yes
+                </label>
+
+                <label class="radio">
+                    <input class="radio-two" type="radio" name="rdiobtn">
+                    <span class="checkmark"></span>
+                    No
+                </label>
+
+                <button type="submit">Register</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
